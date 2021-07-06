@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#part-1-header {
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+#part-1-header .left-side {
+    width: 50%;
+    margin-left: 60px;
+    margin-top: 114px;
+}
+
+#part-1-header .left-side h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#part-1-header .left-side .text-color {
+    color: #FBA24F;
+    font-weight: bold;
+
+}
+
+#part-1-header .left-side p {
+    color: rgb(124, 124, 124);
+    margin-bottom: 50px;
+}
+
+#part-1-header .left-side .text-color {
+    color: #FBA24F;
+    font-weight: bold;
+
+}
+
+#part-1-header .left-side .btnClass {
+    margin-top: 30px;
+    text-decoration: none;
+    background: linear-gradient(45deg, #FBA24F, #FF1E1E);
+    padding: 15px 40px;
+    border-radius: 35px;
+    color: white;
+    font-weight: 700;
+
+}
+
+#part-1-header .right-side-image {
+    margin-top: 60px;
+}
+
+#part-1-header .right-side-image img {
+    margin-left: 60px;
+    width: 528px;
+}
+
+#part-2-about {
+    background-image: url(./img/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 600px;
+}
+
+#part-2-about .part-1 {
+    width: 50%;
+}
+
+#part-2-about .part-1 .person {
+    width: 328px;
+    margin-top: 108px;
+    margin-left: 211px;
+}
+
+#part-2-about .part-2 {
+    width: 50%;
+    margin-top: 200px;
+}
+
+#part-2-about .part-2 h2 {
+    font-size: 54px;
+    font-weight: bold;
+    counter-reset: #707070;
+    margin-bottom: 32px;
+}
+
+#part-2-about .part-2 .text-color {
+    color: #FBA24F;
+    font-weight: bold;
+}
+
+#part-2-about .part-2 p {
+    color: #18191F;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+#part-2-about .part-2 .btnClass {
+    margin-top: 30px;
+    text-decoration: none;
+    background: linear-gradient(45deg, #FBA24F, #FF1E1E);
+    padding: 15px 35px;
+    border-radius: 35px;
+    color: white;
+    font-weight: 700;
+
+}
+
+#part-3-recipies {
+    background: #fff;
+}
+
+#part-3-recipies .part-1 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#part-3-recipies .part-1 h2 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#part-3-recipies .part-1 .text-color {
+    color: #FBA24F;
+}
+
+#part-3-recipies .part-1 p {
+    color: #18191F;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 80px;
+    padding: 0 200px;
+
+}
+
+#part-3-recipies .part-2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#part-3-recipies .part-2 .card {
+    width: 27%;
+    height: 750px;
+    margin: 0 20px;
+    padding: 0 20px;
+    border-radius: 15px;
+    box-shadow: 4px 8px 24px #33323279;
+}
+
+#part-3-recipies .part-2 img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 26px;
+    border-radius: 15px;
+}
+#part-3-recipies .part-2 h2 {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#part-3-recipies .part-2 p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: rgb(124, 124, 124);
+    margin-bottom: 50px;
+}
+#part-4-counting .main{
+    display: flex;
+    margin: 65px 69px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 4px 8px 24px #0e0d0d52;
+    padding: 80px 40px;
+    
+}
+#part-4-counting .main .countNumber{
+    text-align: center;
+    justify-content: center;
+    width: 33.333%;
+}
+#part-4-counting .main .countNumber h2{
+   font-size: 40px;
+   font-weight: 900px;
+}
+#part-4-counting .main .countNumber p{
+   font-size: 15px;
+}
+
+.review{
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 80px;
+}
+.review-contant{
+   width: 40%;
+   margin-right: 200px;
+}
+.review-contant:last-child{
+    margin-right: 0px;
+}
+.review-contant img {
+	width: 200px;
+	float: left;
+	padding-right: 20px;
+    
+}
+.review-contant h3{
+    color: #18191F;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 25px; 
+}
+.review-contant img{
+    width: 200px;
+    float: left;
+}
+.review-contant p{
+    color: #18191F;
+    margin-top: 15px;
+}
+
+
+#footer{
+    background-color: rgb(54, 54, 54);
+    height: 200px;
+}
+#footer .main{
+    text-align: center;
+}
+#footer .main h2{
+    padding-top: 50px;
+    font-size: 40px;
+    color: #fff;
+}
+#footer .main p{
+    padding-top: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+#footer .main .text-color{
+    color: #FBA24F;
+}
+#footer .down-footer{
+    text-align: center;
+    margin-top: 30px;
+    color: #FBA24F;
+}
